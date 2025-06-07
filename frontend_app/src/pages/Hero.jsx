@@ -1,8 +1,10 @@
 import React from 'react';
 import { Play } from 'lucide-react';
 import heroImg from '../images/heroImg.png'; // Adjust the path as necessary
+import WhatWeGive from '../components/WhatWeGive';
 const Hero = () => {
   return (
+    <>
     <section className="bg-gray-50 min-h-[705px] flex items-center relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -48,7 +50,12 @@ const Hero = () => {
       <div className="absolute top-20 left-10 w-4 h-4 bg-blue-300 rounded-full opacity-60"></div>
       <div className="absolute bottom-32 left-20 w-6 h-6 bg-purple-300 rounded-full opacity-60"></div>
       <div className="absolute top-40 right-20 w-5 h-5 bg-orange-300 rounded-full opacity-60"></div>
+      
+      
     </section>
+    <WhatWeGive />
+    </>
+    
   );
 };
 

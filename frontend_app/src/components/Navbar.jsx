@@ -3,35 +3,45 @@ import justacademylogo from '../images/justacademylogo.png'; // Adjust the path 
 
 const Navbar = () => {
   return (
-    <nav className="bg-white shadow-sm border-b border-gray-100">
+    <nav className="bg-white shadow-2xl border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <img 
-              src={justacademylogo} 
-              alt="JustAcademy" 
+            <img
+              src={justacademylogo}
+              alt="JustAcademy"
               className="h-8 w-auto"
             />
           </div>
-          
+
           {/* Navigation Links */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
-              <a 
-                href="#home" 
+              <a
+                href="#home"
                 className="text-gray-900 hover:text-purple-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
               >
                 Home
               </a>
-              <a 
-                href="#about" 
+
+
+              <a
+                href="#home"
+                className="text-gray-900 hover:text-purple-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
+              >
+                Curriculum
+              </a>
+
+              <a
+                href="#about"
                 className="text-gray-700 hover:text-purple-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
               >
                 About
               </a>
-              <a 
-                href="#contact" 
+
+              <a
+                href="#contact"
                 className="text-gray-700 hover:text-purple-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
               >
                 Contact
@@ -60,20 +70,20 @@ const Navbar = () => {
       {/* Mobile menu */}
       <div className="md:hidden" id="mobile-menu">
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-gray-200">
-          <a 
-            href="#home" 
+          <a
+            href="#home"
             className="text-gray-900 hover:text-purple-600 block px-3 py-2 text-base font-medium"
           >
             Home
           </a>
-          <a 
-            href="#about" 
+          <a
+            href="#about"
             className="text-gray-700 hover:text-purple-600 block px-3 py-2 text-base font-medium"
           >
             About
           </a>
-          <a 
-            href="#contact" 
+          <a
+            href="#contact"
             className="text-gray-700 hover:text-purple-600 block px-3 py-2 text-base font-medium"
           >
             Contact
