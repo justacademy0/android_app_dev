@@ -1,6 +1,6 @@
 import React from 'react';
 import { Play } from 'lucide-react';
-
+import heroImg from '../images/heroImg.png'; // Adjust the path as necessary
 const Hero = () => {
   return (
     <section className="bg-gray-50 min-h-[705px] flex items-center relative overflow-hidden">
@@ -35,29 +35,11 @@ const Hero = () => {
           
           {/* Right Image Section */}
           <div className="relative flex justify-center lg:justify-end">
-            {/* Main circular background */}
-            <div className="relative">
-              <div className="w-80 h-80 lg:w-96 lg:h-96 bg-yellow-400 rounded-full flex items-center justify-center relative overflow-hidden">
-                {/* Student image placeholder */}
-                <div className="w-72 h-72 lg:w-80 lg:h-80 bg-gray-300 rounded-full flex items-center justify-center text-gray-600">
-                  <span className="text-sm text-center px-4">
-                    [Student with laptop image would go here]
-                  </span>
-                </div>
-              </div>
-              
-              {/* Decorative elements */}
-              <div className="absolute -top-8 -left-8 w-16 h-16 bg-purple-600 rounded-full"></div>
-              <div className="absolute -top-4 -right-12 w-12 h-12 bg-orange-500 rounded-full"></div>
-              <div className="absolute -bottom-6 -left-12 w-10 h-10 bg-blue-500 rounded-full"></div>
-              <div className="absolute -bottom-8 -right-8 w-14 h-14 bg-blue-400 rounded-full"></div>
-              <div className="absolute top-1/2 -right-16 w-8 h-8 bg-orange-400 rounded-full"></div>
-              
-              {/* Decorative lines */}
-              <div className="absolute top-1/3 -left-16 w-12 h-0.5 bg-orange-400 rotate-45"></div>
-              <div className="absolute top-1/2 -left-14 w-8 h-0.5 bg-orange-400 rotate-45"></div>
-              <div className="absolute top-2/3 -left-12 w-6 h-0.5 bg-orange-400 rotate-45"></div>
-            </div>
+            <img 
+              src={heroImg} 
+              alt="Android Development Course" 
+              className="w-[547.5px] h-[547px] object-contain"
+            />
           </div>
         </div>
       </div>
