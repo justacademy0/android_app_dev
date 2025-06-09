@@ -92,15 +92,17 @@ const About = () => {
                         </div>
 
                         {/* Mission */}
-                        <div className="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-2xl p-8 border border-orange-100">
+                        {/* Mission */}
+                        <div className="bg-rose-50 rounded-2xl p-8 border border-rose-100">
                             <h3 className="text-2xl font-semibold text-gray-900 mb-4 flex items-center">
-                                <Target className="w-5 h-5 text-orange-600 mr-2" />
+                                <Target className="w-5 h-5 text-rose-600 mr-2" />
                                 Our Mission
                             </h3>
                             <p className="text-gray-700 leading-relaxed">
                                 Our mission is to transform aspiring IT professionals into job-ready experts. We achieve this by offering intensive, practical training delivered by experienced trainers who bring real-world insights into the classroom.
                             </p>
                         </div>
+
                     </div>
 
                     {/* Right Column - Courses */}
@@ -134,7 +136,7 @@ const About = () => {
                 <div className="mb-16">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                         {stats.map((stat, index) => (
-                            <div key={index} className="bg-gradient-to-br from-gray-50 to-blue-50 rounded-xl p-6 text-center border border-gray-200 hover:shadow-lg transition-shadow duration-300">
+                            <div key={index} className="bg-gradient-to-br from-gray-50 to-pink-50 rounded-xl p-6 text-center border border-gray-200 hover:shadow-lg transition-shadow duration-300">
                                 <div className={`text-3xl font-bold ${stat.color} mb-2`}>
                                     {stat.number}
                                 </div>
@@ -163,9 +165,9 @@ const About = () => {
                             return (
                                 <div
                                     key={index}
-                                    className="group bg-white rounded-2xl p-8 border border-gray-200 hover:border-blue-300 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+                                    className="group bg-white rounded-2xl p-8 border border-gray-200 hover:border-pink-300 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
                                 >
-                                    <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                                    <div className="w-16 h-16 bg-gradient-to-br from-pink-600 to-pink-800 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
                                         <IconComponent className="w-8 h-8 text-white" />
                                     </div>
                                     <h4 className="text-xl font-semibold text-gray-900 mb-4">
@@ -198,7 +200,7 @@ const About = () => {
                             </a>
                             <a
                                 href="#form"
-                                className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors duration-200"
+                                className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-pink-800 transition-colors duration-200"
                             >
                                 Contact Us
                             </a>

@@ -11,9 +11,9 @@ const Hero = () => {
             {/* Left Content */}
             <div className="space-y-8">
               <div className="space-y-4">
-                <p className="text-blue-600 font-medium text-lg">Let's Begin</p>
+                <p className="text-[#B71B72] font-medium text-lg">Let's Begin</p>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                  <span className="text-blue-600">Android </span>App Development Course
+                  <span className="text-[#B71B72]">Android </span>App Development Course
                 </h1>
               </div>
 
@@ -22,7 +22,7 @@ const Hero = () => {
 <div className="flex flex-col gap-4 w-full max-w-sm mt-4">
   <a
     href="tel:919987184296"
-    className="w-full flex items-center justify-center gap-2 border-2 border-blue-600 text-blue-600 px-6 py-3 rounded-full font-semibold text-base transition-colors duration-200 hover:bg-blue-600 hover:text-white"
+    className="w-full flex items-center justify-center gap-2 border-2 border-pink-700 text-pink-700 px-6 py-3 rounded-full font-semibold text-base transition-colors duration-200 hover:bg-pink-700 hover:text-white"
   >
     <Phone className="w-5 h-5" />
     91 9987184296

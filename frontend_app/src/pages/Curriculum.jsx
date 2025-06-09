@@ -213,7 +213,7 @@ const Curriculum = () => {
       <div id="curriculum" className="max-w-7xl mx-auto px-6 scroll-mt-16">
         {/* Header */}
         <div className="text-left mb-12">
-          <h3 className="text-sm font-semibold text-blue-600 uppercase tracking-wide mb-2">
+          <h3 className="text-sm font-semibold text-pink-700 uppercase tracking-wide mb-2">
             COMPREHENSIVE CURRICULUM
           </h3>
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -237,7 +237,7 @@ const Curriculum = () => {
                 className="w-full px-6 py-5 flex items-center justify-between text-left hover:bg-gray-50 rounded-xl transition-colors duration-200"
               >
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center text-white shadow-lg">
+                  <div className="w-12 h-12 bg-gradient-to-br from-pink-600 to-pink-800 rounded-lg flex items-center justify-center text-white shadow-lg">
                     {getModuleIcon(index)}
                   </div>
                   <div>
@@ -251,7 +251,7 @@ const Curriculum = () => {
                   </div>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <span className="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded-full font-medium">
+                  <span className="text-xs bg-pink-100 text-pink-700 px-2 py-1 rounded-full font-medium">
                     {module.topics.length + (module.projects?.length || 0)} items
                   </span>
                   {expandedModules[module.id] ? (
@@ -278,7 +278,7 @@ const Curriculum = () => {
                             key={topicIndex}
                             className="flex items-start space-x-3 p-3 bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors duration-200"
                           >
-                            <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+                            <div className="w-2 h-2 bg-pink-500 rounded-full mt-2 flex-shrink-0"></div>
                             <span className="text-gray-700 leading-relaxed">{topic}</span>
                           </div>
                         ))}

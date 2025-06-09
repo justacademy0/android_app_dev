@@ -54,7 +54,7 @@ const Contact = () => {
             <div className="max-w-6xl mx-auto">
                 {/* Header Section */}
                 <div className="text-left mb-12">
-                    <p className="text-blue-600 font-semibold text-sm uppercase tracking-wide mb-2">
+                    <p className="text-pink-700 font-semibold text-sm uppercase tracking-wide mb-2">
                         GET IN TOUCH
                     </p>
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -69,7 +69,7 @@ const Contact = () => {
                     {/* Contact Form - Takes 2 columns */}
                     <div id="form" className="lg:col-span-2 bg-white rounded-2xl shadow-xl p-8 relative overflow-hidden">
                         {/* Decorative elements */}
-                        <div className="absolute top-0 right-0 w-20 h-20 bg-blue-100 rounded-full -translate-y-10 translate-x-10"></div>
+                        <div className="absolute top-0 right-0 w-20 h-20 bg-pink-100 rounded-full -translate-y-10 translate-x-10"></div>
                         <div className="absolute bottom-0 left-0 w-16 h-16 bg-yellow-100 rounded-full translate-y-8 -translate-x-8"></div>
 
                         <h3 className="text-2xl font-bold text-gray-900 mb-6">Send us a Message</h3>
@@ -152,7 +152,7 @@ const Contact = () => {
 
                                 <button
                                     onClick={handleSubmit}
-                                    className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold mb-12 py-3 px-6 rounded-lg transition-colors flex items-center justify-center gap-2"
+                                    className="w-full bg-pink-600 hover:bg-pink-700 text-white font-semibold mb-12 py-3 px-6 rounded-lg transition-colors flex items-center justify-center gap-2"
                                 >
                                     <Send className="w-5 h-5" />
                                     Send Message
@@ -179,7 +179,7 @@ const Contact = () => {
                         <div className="bg-white rounded-2xl shadow-xl p-8 relative overflow-hidden h-full flex flex-col justify-center">
                             <div className="absolute top-0 right-0 w-24 h-24 bg-green-100 rounded-full -translate-y-12 translate-x-12"></div>
 
-                            <div className="text-center">
+                            <div className=" text-center">
                                 <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
                                     <WhatsAppIcon className="w-8 h-8 text-white" />
                                 </div>
@@ -196,7 +196,7 @@ const Contact = () => {
                                     Chat on WhatsApp
                                 </button>
 
-                                <p className="text-sm  text-gray-500 mt-10 space-y-1">
+                                <p className="mt-10 flex flex-col items-center text-sm text-gray-500 space-y-1">
                                     <span className="flex items-center gap-2">
                                         <Phone className="w-4 h-4 text-gray-400" />
                                         +91 99871 84296
@@ -206,6 +206,7 @@ const Contact = () => {
                                         info@justacademy.co
                                     </span>
                                 </p>
+
 
                             </div>
                         </div>
