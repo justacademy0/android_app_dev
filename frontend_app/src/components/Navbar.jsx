@@ -48,11 +48,12 @@ const Navbar = () => {
               </a>
 
               <a
-                href="#contact"
-                className="text-gray-700 hover:text-[#B51C72] px-3 py-2 text-sm font-medium transition-colors duration-200"
-              >
-                Contact
-              </a>
+  href="#contact"
+  className="px-4 py-2 border-2 border-[#B51C72] text-[#B51C72] rounded-full font-semibold text-sm hover:bg-[#B51C72] hover:text-white transition-colors duration-200"
+>
+  Contact
+</a>
+
             </div>
           </div>
 
