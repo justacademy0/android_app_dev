@@ -4,6 +4,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './pages/Hero'
 import Curriculum from './pages/Curriculum'
+import About from './pages/About'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Navbar/>
       <Hero/>
       <Curriculum/>
+      <About/>
     </div>
     
   )

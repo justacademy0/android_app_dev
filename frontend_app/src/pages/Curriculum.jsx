@@ -212,14 +212,14 @@ const Curriculum = () => {
     <section className="py-16 bg-gradient-to-br from-slate-50 to-blue-50">
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
-        <div className="text-center mb-12">
+        <div className="text-left mb-12">
           <h3 className="text-sm font-semibold text-blue-600 uppercase tracking-wide mb-2">
             COMPREHENSIVE CURRICULUM
           </h3>
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
             Complete Android Development Course
           </h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg text-gray-600 max-w-3xl ">
             Master Android development through our structured 14-module curriculum covering everything from basics to advanced topics with hands-on projects.
           </p>
         </div>
