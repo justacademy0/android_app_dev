@@ -45,9 +45,9 @@ const About = () => {
 
 
     const stats = [
-        { number: "650+", label: "Hiring Partners", color: "text-blue-600" },
-        { number: "5000+", label: "Students Trained", color: "text-green-600" },
-        { number: "15+", label: "Course Programs", color: "text-orange-600" }
+        { number: "650+", label: "Hiring Partners", color: "text-pink-700" },
+        { number: "5000+", label: "Students Trained", color: "text-fuchsia-600" },
+        { number: "15+", label: "Course Programs", color: "text-rose-500" }
     ];
 
     return (
@@ -55,7 +55,7 @@ const About = () => {
             <div id="about" className="max-w-6xl mx-auto px-6 scroll-mt-16">
                 {/* Header */}
                 <div className="mb-16">
-                    <h3 className="text-sm font-semibold text-blue-600 uppercase tracking-wide mb-2">
+                    <h3 className="text-sm font-semibold text-[#91165B] uppercase tracking-wide mb-2">
                         ABOUT US
                     </h3>
                     <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -70,9 +70,17 @@ const About = () => {
                 <div className="grid lg:grid-cols-2 gap-12 mb-16">
                     {/* Left Column - Introduction */}
                     <div className="space-y-6">
-                        <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-100">
+                        <div
+                            className="
+                                bg-[#B51C72]/10     /* pink at 10% opacity */
+                                rounded-2xl
+                                p-8
+                                border
+                                border-[#B51C72]/20  /* border at 20% opacity */
+                            "
+                        >
                             <h3 className="text-2xl font-semibold text-gray-900 mb-4 flex items-center">
-                                <MapPin className="w-5 h-5 text-blue-600 mr-2" />
+                                <MapPin className="w-5 h-5 text-[#91165B] mr-2" />
                                 Welcome to JustAcademy
                             </h3>
                             <p className="text-gray-700 leading-relaxed mb-6">
@@ -99,7 +107,7 @@ const About = () => {
                     <div>
                         <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 border border-purple-100 h-full">
                             <h3 className="text-2xl font-semibold text-gray-900 mb-6 flex items-center">
-                                <BookOpen className="w-5 h-5 text-purple-600 mr-2" />
+                                <BookOpen className="w-5 h-5 text-pink-600 mr-2" />
                                 Our Comprehensive Courses
                             </h3>
 
@@ -110,7 +118,8 @@ const About = () => {
                                         href={course.url}
                                         className="flex items-center space-x-3 p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200"
                                     >
-                                        <div className="w-2 h-2 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full" />
+                                        <div className="w-2 h-2 bg-gradient-to-r from-pink-300 to-pink-600 rounded-full" />
+
                                         <span className="text-gray-700 font-medium">{course.name}</span>
                                     </a>
                                 ))}
@@ -173,17 +182,17 @@ const About = () => {
 
                 {/* Call to Action */}
                 <div className="mt-16 text-center">
-                    <div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl p-8 text-white">
+                    <div className="bg-gradient-to-r from-pink-700 to-pink-900 rounded-2xl p-8 text-white">
                         <h3 className="text-2xl font-bold mb-4">
                             Ready to Start Your IT Career Journey?
                         </h3>
-                        <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
+                        <p className="text-pink-100 mb-6 max-w-2xl mx-auto">
                             Join JustAcademy and take the first step towards a successful and rewarding career in the IT industry.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <a
                                 href="#form"
-                                className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 shadow-lg"
+                                className="bg-white text-pink-800 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 shadow-lg"
                             >
                                 Enroll Now
                             </a>

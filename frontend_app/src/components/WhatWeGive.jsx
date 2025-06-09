@@ -4,17 +4,17 @@ import { Video, Award, HelpCircle } from 'lucide-react';
 const WhatWeGive = () => {
   const features = [
   {
-    icon: <Video className="w-6 h-6 text-yellow-500" />,
+    icon: <Video className="w-6 h-6 text-[#B51C72]" />,
     title: "Live & Recorded Sessions",
     description: "Join interactive live classes and revisit every lesson anytime with lifetime access to recordings.",
   },
   {
-    icon: <Award className="w-6 h-6 text-yellow-500" />,
+    icon: <Award className="w-6 h-6 text-[#B51C72]" />,
     title: "Industry Certification",
     description: "Earn an industry-recognized certificate upon completion to showcase your expertise to employers.",
   },
   {
-    icon: <HelpCircle className="w-6 h-6 text-yellow-500" />,
+    icon: <HelpCircle className="w-6 h-6 text-[#B51C72]" />,
     title: "Doubt Solving Support",
     description: "Get one-on-one help via WhatsApp, Zoom, or in-class sessions to clear any roadblocks instantly.",
   },
@@ -22,8 +22,8 @@ const WhatWeGive = () => {
 
   return (
     <section className="bg-white py-16">
-      <div id="whatuget" className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-left scroll-mt-16">
-        <p className="text-blue-600 font-medium text-sm uppercase tracking-wide mb-2">
+      <div id="whatuget" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-left scroll-mt-16">
+        <p className="text-[#B51C72] font-medium text-sm uppercase tracking-wide mb-2">
           WHAT WE GIVE
         </p>
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -38,7 +38,7 @@ const WhatWeGive = () => {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="bg-blue-600 rounded-xl p-6 text-white hover:bg-blue-700 transition-colors duration-300"
+              className="bg-[#B51C72] rounded-xl p-6 text-white hover:bg-[#91165B] transition-colors duration-300"
             >
               <div className="space-y-3">
                 <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center mx-auto">
