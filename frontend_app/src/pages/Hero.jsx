@@ -24,7 +24,7 @@ const Hero = () => {
             </p>
             
             {/* Action Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4">
+            {/* <div className="flex flex-col sm:flex-row gap-4">
               <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200 shadow-lg hover:shadow-xl">
                 Register Now
               </button>
@@ -32,7 +32,7 @@ const Hero = () => {
                 <Play className="w-5 h-5 fill-current" />
                 Play Video
               </button>
-            </div>
+            </div> */}
           </div>
           
           {/* Right Image Section */}
