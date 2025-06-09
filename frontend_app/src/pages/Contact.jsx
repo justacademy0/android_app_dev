@@ -43,9 +43,9 @@ const Contact = () => {
   };
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = '+919987184296';
+    const phoneNumber = '919987184296'; // Removed the + sign
     const message = 'Hi, I am interested in the Android Course. Could you please provide more details?';
-    const whatsappUrl = `https://wa.me/${phoneNumber.replace('+', '')}?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -65,9 +65,9 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-start">
-          {/* Contact Form */}
-          <div className="bg-white rounded-2xl shadow-xl p-8 relative overflow-hidden">
+        <div className="grid lg:grid-cols-3 gap-12 items-start">
+          {/* Contact Form - Takes 2 columns */}
+          <div className="lg:col-span-2 bg-white rounded-2xl shadow-xl p-8 relative overflow-hidden">
             {/* Decorative elements */}
             <div className="absolute top-0 right-0 w-20 h-20 bg-blue-100 rounded-full -translate-y-10 translate-x-10"></div>
             <div className="absolute bottom-0 left-0 w-16 h-16 bg-yellow-100 rounded-full translate-y-8 -translate-x-8"></div>
@@ -173,10 +173,10 @@ const Contact = () => {
             )}
           </div>
 
-          {/* WhatsApp Contact & Info */}
-          <div className="space-y-8">
+          {/* WhatsApp Contact & Info - Takes 1 column */}
+          <div className="lg:col-span-1">
             {/* WhatsApp Card */}
-            <div className="bg-white rounded-2xl shadow-xl p-8 relative overflow-hidden">
+            <div className="bg-white rounded-2xl shadow-xl p-8 relative overflow-hidden h-full flex flex-col justify-center">
               <div className="absolute top-0 right-0 w-24 h-24 bg-green-100 rounded-full -translate-y-12 translate-x-12"></div>
               
               <div className="text-center">
@@ -199,27 +199,6 @@ const Contact = () => {
                 <p className="text-sm text-gray-500 mt-3">
                   📱 +91 99871 84296
                 </p>
-              </div>
-            </div>
-
-            {/* Info Cards */}
-            <div className="grid grid-cols-1 gap-6">
-              <div className="bg-blue-600 text-white rounded-xl p-6 relative overflow-hidden">
-                <div className="absolute top-0 right-0 w-20 h-20 bg-white/10 rounded-full -translate-y-10 translate-x-10"></div>
-                <h4 className="font-semibold mb-2">Professional Teacher</h4>
-                <p className="text-blue-100 text-sm">Learn from industry experts with years of real-world experience</p>
-              </div>
-              
-              <div className="bg-yellow-400 text-gray-900 rounded-xl p-6 relative overflow-hidden">
-                <div className="absolute top-0 right-0 w-20 h-20 bg-white/20 rounded-full -translate-y-10 translate-x-10"></div>
-                <h4 className="font-semibold mb-2">Course Certificate</h4>
-                <p className="text-gray-700 text-sm">Get certified upon completion to boost your career prospects</p>
-              </div>
-              
-              <div className="bg-purple-600 text-white rounded-xl p-6 relative overflow-hidden">
-                <div className="absolute top-0 right-0 w-20 h-20 bg-white/10 rounded-full -translate-y-10 translate-x-10"></div>
-                <h4 className="font-semibold mb-2">Interesting Learning</h4>
-                <p className="text-purple-100 text-sm">Engaging, hands-on projects that make learning enjoyable</p>
               </div>
             </div>
           </div>
