@@ -20,7 +20,7 @@ const Navbar = () => {
             <div className="ml-10 flex items-baseline space-x-8">
               <a
                 href="#home"
-                className="text-gray-900 hover:text-purple-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
+                className="text-gray-900 hover:text-[#B51C72] px-3 py-2 text-sm font-medium transition-colors duration-200"
               >
                 Home
               </a>
@@ -28,28 +28,28 @@ const Navbar = () => {
 
               <a
                 href="#curriculum"
-                className="text-gray-900 hover:text-purple-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
+                className="text-gray-900 hover:text-[#B51C72] px-3 py-2 text-sm font-medium transition-colors duration-200"
               >
                 Curriculum
               </a>
 
               <a
                 href="#whatuget"
-                className="text-gray-900 hover:text-purple-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
+                className="text-gray-900 hover:text-[#B51C72] px-3 py-2 text-sm font-medium transition-colors duration-200"
               >
                 What You Get
               </a>
 
               <a
                 href="#about"
-                className="text-gray-700 hover:text-purple-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
+                className="text-gray-700 hover:text-[#B51C72] px-3 py-2 text-sm font-medium transition-colors duration-200"
               >
                 About
               </a>
 
               <a
                 href="#contact"
-                className="text-gray-700 hover:text-purple-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
+                className="text-gray-700 hover:text-[#B51C72] px-3 py-2 text-sm font-medium transition-colors duration-200"
               >
                 Contact
               </a>
@@ -79,31 +79,31 @@ const Navbar = () => {
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-gray-200">
           <a
             href="#home"
-            className="text-gray-900 hover:text-purple-600 block px-3 py-2 text-base font-medium"
+            className="text-gray-900 hover:text-[#B51C72] block px-3 py-2 text-base font-medium"
           >
             Home
           </a>
           <a
             href="#curriculum"
-            className="text-gray-900 hover:text-purple-600 block px-3 py-2 text-base font-medium"
+            className="text-gray-900 hover:text-[#B51C72] block px-3 py-2 text-base font-medium"
           >
             Curriculum
           </a>
           <a
             href="#whatuget"
-            className="text-gray-900 hover:text-purple-600 block px-3 py-2 text-base font-medium"
+            className="text-gray-900 hover:text-[#B51C72] block px-3 py-2 text-base font-medium"
           >
             What You Get
           </a>
           <a
             href="#about"
-            className="text-gray-700 hover:text-purple-600 block px-3 py-2 text-base font-medium"
+            className="text-gray-700 hover:text-[#B51C72] block px-3 py-2 text-base font-medium"
           >
             About
           </a>
           <a
             href="#contact"
-            className="text-gray-700 hover:text-purple-600 block px-3 py-2 text-base font-medium"
+            className="text-gray-700 hover:text-[#B51C72] block px-3 py-2 text-base font-medium"
           >
             Contact
           </a>

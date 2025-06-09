@@ -1,39 +1,24 @@
 import React from 'react';
-import { User, GraduationCap, Award, HelpingHand, Briefcase } from 'lucide-react';
+import { Video, Award, HelpCircle } from 'lucide-react';
 
 const WhatWeGive = () => {
   const features = [
-    {
-      icon: <User className="w-6 h-6 text-yellow-500" />,
-      title: "Professional Teacher",
-      description: "Learn from industry experts with years of Android development experience.",
-    },
-    {
-      icon: <GraduationCap className="w-6 h-6 text-yellow-500" />,
-      title: "Course Certificate",
-      description: "Earn a recognized certificate upon completion. Boost your resume and showcase your skills.",
-    },
-    {
-      icon: <Award className="w-6 h-6 text-yellow-500" />,
-      title: "Project based Learning",
-      description: "Engage with hands-on projects and real app development scenarios.",
-    },
-    {
-      icon: <HelpingHand className="w-6 h-6 text-yellow-500" />,
-      title: "Internship Assistance",
-      description: "Get help finding internships to apply your skills in real-world environments.",
-    },
-    {
-      icon: <Briefcase className="w-6 h-6 text-yellow-500" />,
-      title: "Placement Support",
-      description: "Receive career guidance and support to land your first job in tech.",
-    },
-    {
-      icon: <User className="w-6 h-6 text-yellow-500" />,
-      title: "Interview Prep.",
-      description: "Master interviews with mock sessions, curated questions, and expert feedback to boost your confidence.",
-    }
-  ];
+  {
+    icon: <Video className="w-6 h-6 text-yellow-500" />,
+    title: "Live & Recorded Sessions",
+    description: "Join interactive live classes and revisit every lesson anytime with lifetime access to recordings.",
+  },
+  {
+    icon: <Award className="w-6 h-6 text-yellow-500" />,
+    title: "Industry Certification",
+    description: "Earn an industry-recognized certificate upon completion to showcase your expertise to employers.",
+  },
+  {
+    icon: <HelpCircle className="w-6 h-6 text-yellow-500" />,
+    title: "Doubt Solving Support",
+    description: "Get one-on-one help via WhatsApp, Zoom, or in-class sessions to clear any roadblocks instantly.",
+  },
+];
 
   return (
     <section className="bg-white py-16">

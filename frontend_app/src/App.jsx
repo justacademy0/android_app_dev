@@ -16,8 +16,9 @@ function App() {
     <div className="scroll-smooth">
       <Navbar/>
       <Hero/>
-      <Curriculum/>
       <WhatWeGive/>
+      <Curriculum/>
+      
       <About/>
       <Contact/>
     </div>
