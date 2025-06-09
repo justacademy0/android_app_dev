@@ -27,10 +27,17 @@ const Navbar = () => {
 
 
               <a
-                href="#home"
+                href="#curriculum"
                 className="text-gray-900 hover:text-purple-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
               >
                 Curriculum
+              </a>
+
+              <a
+                href="#whatuget"
+                className="text-gray-900 hover:text-purple-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
+              >
+                What You Get
               </a>
 
               <a
@@ -75,6 +82,18 @@ const Navbar = () => {
             className="text-gray-900 hover:text-purple-600 block px-3 py-2 text-base font-medium"
           >
             Home
+          </a>
+          <a
+            href="#curriculum"
+            className="text-gray-900 hover:text-purple-600 block px-3 py-2 text-base font-medium"
+          >
+            Curriculum
+          </a>
+          <a
+            href="#whatuget"
+            className="text-gray-900 hover:text-purple-600 block px-3 py-2 text-base font-medium"
+          >
+            What You Get
           </a>
           <a
             href="#about"

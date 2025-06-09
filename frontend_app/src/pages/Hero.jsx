@@ -6,21 +6,24 @@ const Hero = () => {
   return (
     <>
     <section className="bg-gray-50 min-h-[705px] flex items-center relative overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+      <div id="home" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full scroll-mt-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="space-y-8">
             <div className="space-y-4">
               <p className="text-blue-600 font-medium text-lg">Let's Begin</p>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                Let's Find The Right{' '}
-                <span className="text-blue-600">Android Course</span>{' '}
-                For You
+                
+                <span className="text-blue-600">Android </span>{' '}
+                App Development Course
               </h1>
             </div>
             
             <p className="text-gray-600 text-lg leading-relaxed max-w-lg">
-              Master Android app development with JustAcademy's comprehensive course. Learn Kotlin, Java, and modern development practices to build professional mobile applications.
+              - Hands-on Android development with JustAcademy<br/>
+              - Build real apps using Android Studio, XML, UI components, Firebase, Retrofit<br/>
+              - Learn activities, fragments, notifications, Google Maps, database integration<br/>
+              - Practical projects to get job-ready with latest tools
             </p>
             
             {/* Action Buttons */}
@@ -53,7 +56,7 @@ const Hero = () => {
       
       
     </section>
-    <WhatWeGive />
+    {/* <WhatWeGive /> */}
     </>
     
   );

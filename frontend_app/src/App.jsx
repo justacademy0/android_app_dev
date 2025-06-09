@@ -6,16 +6,18 @@ import Hero from './pages/Hero'
 import Curriculum from './pages/Curriculum'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import WhatWeGive from './components/WhatWeGive'
 
 
 function App() {
   
 
   return (
-    <div>
+    <div className="scroll-smooth">
       <Navbar/>
       <Hero/>
       <Curriculum/>
+      <WhatWeGive/>
       <About/>
       <Contact/>
     </div>

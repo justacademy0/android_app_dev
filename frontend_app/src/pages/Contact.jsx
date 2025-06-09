@@ -50,7 +50,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="bg-gradient-to-br from-blue-50 to-purple-50 py-16 px-4">
+    <div id="contact" className="bg-gradient-to-br from-blue-50 to-purple-50 py-16 px-4 scroll-mt-16">
       <div className="max-w-6xl mx-auto">
         {/* Header Section */}
         <div className="text-left mb-12">

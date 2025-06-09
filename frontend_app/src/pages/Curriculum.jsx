@@ -210,7 +210,7 @@ const Curriculum = () => {
 
   return (
     <section className="py-16 bg-gradient-to-br from-slate-50 to-blue-50">
-      <div className="max-w-7xl mx-auto px-6">
+      <div id="curriculum" className="max-w-7xl mx-auto px-6 scroll-mt-16">
         {/* Header */}
         <div className="text-left mb-12">
           <h3 className="text-sm font-semibold text-blue-600 uppercase tracking-wide mb-2">

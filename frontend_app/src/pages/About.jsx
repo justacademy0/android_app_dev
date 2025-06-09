@@ -1,34 +1,35 @@
 import React from 'react';
-import { Award, Users, Briefcase, Target, CheckCircle, MapPin, BookOpen, TrendingUp } from 'lucide-react';
+import { Award, Users, Briefcase, Target, CheckCircle, MapPin, BookOpen, TrendingUp, Clock } from 'lucide-react';
 
 const About = () => {
   const features = [
-    {
-      icon: BookOpen,
-      title: "Practical Training",
-      description: "Our courses emphasize hands-on projects and real-time case studies to ensure you gain practical proficiency."
-    },
-    {
-      icon: Users,
-      title: "Experienced Trainers",
-      description: "Learn from seasoned professionals with extensive industry experience."
-    },
-    {
-      icon: Briefcase,
-      title: "Robust Placement Assistance",
-      description: "We boast a strong network of over 650 hiring partners, providing dedicated job placement support."
-    },
-    {
-      icon: Award,
-      title: "Internship Opportunities",
-      description: "Gain valuable work experience through our internship programs."
-    },
-    {
-      icon: TrendingUp,
-      title: "Proven Success",
-      description: "Our track record of student success stories speaks for itself, with many graduates thriving in leading IT companies."
-    }
-  ];
+  {
+    icon: Users,
+    title: "Expert Trainers",
+    description: "Learn from top-tier professionals who bring real-world experience and industry insights into every session.",
+  },
+  {
+    icon: BookOpen,
+    title: "Live Project Training",
+    description: "Build real applications with hands-on training that mirrors actual development environments.",
+  },
+  {
+    icon: Clock,
+    title: "Flexible Schedules",
+    description: "Choose from online or offline batches with timings that fit your routine — perfect for students and working professionals.",
+  },
+  {
+    icon: Briefcase,
+    title: "Placement & Interview Prep",
+    description: "Receive 100% placement support, mock interviews, and personalized guidance to crack your dream job.",
+  },
+  {
+    icon: Award,
+    title: "Career-Boosting Certifications",
+    description: "Earn industry-recognized certificates that add strong credibility to your resume and job profile.",
+  }
+];
+
 
   const courses = [
     "Web Design and Development",
@@ -50,7 +51,7 @@ const About = () => {
 
   return (
     <section className="py-16 bg-white">
-      <div className="max-w-6xl mx-auto px-6">
+      <div id="about"  className="max-w-6xl mx-auto px-6 scroll-mt-16">
         {/* Header */}
         <div className="mb-16">
           <h3 className="text-sm font-semibold text-blue-600 uppercase tracking-wide mb-2">
