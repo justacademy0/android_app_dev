@@ -181,15 +181,25 @@ const About = () => {
                             Join JustAcademy and take the first step towards a successful and rewarding career in the IT industry.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                            <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 shadow-lg">
+                            <a
+                                href="#form"
+                                className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 shadow-lg"
+                            >
                                 Enroll Now
-                            </button>
-                            <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors duration-200">
+                            </a>
+                            <a
+                                href="#form"
+                                className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors duration-200"
+                            >
                                 Contact Us
-                            </button>
+                            </a>
                         </div>
+
                     </div>
                 </div>
+
+
+
             </div>
         </section>
     );

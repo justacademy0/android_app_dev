@@ -67,7 +67,7 @@ const Contact = () => {
 
                 <div className="grid lg:grid-cols-3 gap-12 items-start">
                     {/* Contact Form - Takes 2 columns */}
-                    <div className="lg:col-span-2 bg-white rounded-2xl shadow-xl p-8 relative overflow-hidden">
+                    <div id="form" className="lg:col-span-2 bg-white rounded-2xl shadow-xl p-8 relative overflow-hidden">
                         {/* Decorative elements */}
                         <div className="absolute top-0 right-0 w-20 h-20 bg-blue-100 rounded-full -translate-y-10 translate-x-10"></div>
                         <div className="absolute bottom-0 left-0 w-16 h-16 bg-yellow-100 rounded-full translate-y-8 -translate-x-8"></div>
@@ -152,7 +152,7 @@ const Contact = () => {
 
                                 <button
                                     onClick={handleSubmit}
-                                    className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors flex items-center justify-center gap-2"
+                                    className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold mb-12 py-3 px-6 rounded-lg transition-colors flex items-center justify-center gap-2"
                                 >
                                     <Send className="w-5 h-5" />
                                     Send Message
