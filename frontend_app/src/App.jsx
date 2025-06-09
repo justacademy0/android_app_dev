@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import Hero from './pages/Hero'
 import Curriculum from './pages/Curriculum'
 import About from './pages/About'
+import Contact from './pages/Contact'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Hero/>
       <Curriculum/>
       <About/>
+      <Contact/>
     </div>
     
   )
