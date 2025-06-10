@@ -18,27 +18,23 @@ const Hero = () => {
               </div>
 
               {/* Action Buttons */}
-              {/* Action Buttons */}
-<div className="flex flex-col gap-4 w-full max-w-sm mt-4">
-  <a
-    href="tel:919987184296"
-    className="w-full flex items-center justify-center gap-2 border-2 border-pink-700 text-pink-700 px-6 py-3 rounded-full font-semibold text-base transition-colors duration-200 hover:bg-pink-700 hover:text-white"
-  >
-    <Phone className="w-5 h-5" />
-    91 9987184296
-  </a>
+              <div className="flex flex-col gap-4 w-full max-w-sm mt-4">
+                <a
+                  href="tel:919987184296"
+                  className="w-full flex items-center justify-center gap-2 border-2 border-pink-700 text-pink-700 px-6 py-3 rounded-full font-semibold text-base transition-colors duration-200 hover:bg-pink-700 hover:text-white"
+                >
+                  <Phone className="w-5 h-5" />
+                  91 9987184296
+                </a>
 
-  <a
-    href="mailto:info@justacademy.co"
-    className="w-full flex items-center justify-center gap-2 border-2 border-gray-300 text-gray-700 px-6 py-3 rounded-full font-semibold text-base transition-colors duration-200 hover:bg-gray-100"
-  >
-    <Mail className="w-5 h-5" />
-    info@justacademy.co
-  </a>
-</div>
-
-
-
+                <a
+                  href="mailto:info@justacademy.co"
+                  className="w-full flex items-center justify-center gap-2 border-2 border-gray-300 text-gray-700 px-6 py-3 rounded-full font-semibold text-base transition-colors duration-200 hover:bg-gray-100"
+                >
+                  <Mail className="w-5 h-5" />
+                  info@justacademy.co
+                </a>
+              </div>
             </div>
 
             {/* Right Image Section */}
@@ -46,7 +42,7 @@ const Hero = () => {
               <img
                 src={heroImg}
                 alt="Android Development Course"
-                className="w-[547.5px] h-[547px] object-contain"
+                className="w-full max-w-[547.5px] h-auto object-contain"
               />
             </div>
           </div>
