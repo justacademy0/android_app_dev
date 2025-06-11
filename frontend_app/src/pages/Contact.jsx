@@ -172,7 +172,7 @@ const Contact = () => {
                                             onChange={handleInputChange}
                                             rows={4}
                                             className="w-full pl-12 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all resize-none"
-                                            placeholder="Tell us about your learning goals..."
+                                            placeholder="Tell us your query..."
                                         />
                                     </div>
                                 </div>
