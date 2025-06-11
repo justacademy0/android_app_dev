@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { MessageCircle, User, Mail, Phone, MessageSquare, Send, MapPin } from 'lucide-react';
+import emailjs from "@emailjs/browser"
 
 // WhatsApp Icon Component
 const WhatsAppIcon = ({ className = "w-8 h-8" }) => (
@@ -12,7 +13,33 @@ const WhatsAppIcon = ({ className = "w-8 h-8" }) => (
     </svg>
 );
 
+
+
+
 const Contact = () => {
+    const form = useRef();
+
+    const sendemail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm(
+            'service_opmzybd',  // wrap these as strings
+            'template_wv116ka',
+            form.current,
+            'zL-QIZHE2XqwI-1MF'
+        ).then(
+            () => {
+                alert("Message sent successfully");
+                form.current.reset();
+            },
+            (error) => {
+                alert("Failed to send message, please try again. " + error.text);
+            }
+        );
+    };
+
+
+
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -75,7 +102,7 @@ const Contact = () => {
                         <h3 className="text-2xl font-bold text-gray-900 mb-6">Send us a Message</h3>
 
                         {!isSubmitted ? (
-                            <div className="space-y-6">
+                            <form ref={form} onSubmit={sendemail} className="space-y-6">
                                 <div>
                                     <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
                                         Full Name *
@@ -151,13 +178,14 @@ const Contact = () => {
                                 </div>
 
                                 <button
-                                    onClick={handleSubmit}
+                                    type="submit"
+
                                     className="w-full bg-pink-600 hover:bg-pink-700 text-white font-semibold mb-12 py-3 px-6 rounded-lg transition-colors flex items-center justify-center gap-2"
                                 >
                                     <Send className="w-5 h-5" />
                                     Send Message
                                 </button>
-                            </div>
+                            </form>
                         ) : (
                             <div className="text-center py-8">
                                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
