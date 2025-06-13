@@ -1,3 +1,5 @@
+// I HAVE USED EMAILJS FOR EMAIL FUNCTIONALITY
+
 import React, { useState, useRef } from 'react';
 import { MessageCircle, User, Mail, Phone, MessageSquare, Send, MapPin } from 'lucide-react';
 import emailjs from "@emailjs/browser"
